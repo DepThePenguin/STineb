@@ -4,6 +4,6 @@ body {
   background-repeat: no-repeat;
   background-position: 1px;
 }
-h1 {
+h2,p {
   text-align: center;
 }
