@@ -9,7 +9,7 @@ body {
   background-position: 1px;
   
 }
-h2,p {
-  text-align: center;
-  
-}
+h1,p{ text-align:center;
+              font-size: 200%;}
+        td{font-size: 200%;
+           font-weight:bold}
