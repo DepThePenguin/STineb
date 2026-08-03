@@ -1,108 +1,108 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    transition:0.3s;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
 }
 
 html,
-body{
-    min-height:100%;
+body {
+  min-height: 100%;
 }
 
-body{
-    background:rgb(242,253,238);
-    color:rgb(3,65,3);
+body {
+  background: rgb(242, 253, 238);
+  color: rgb(3, 65, 3);
 }
 
 /* Thanh đầu */
 
-.header{
-    position:relative;
-    background-image:linear-gradient(
-        to bottom,
-        rgb(7,69,28),
-        rgb(85,254,79),
-        rgb(185,255,182)
-    );
-    padding:10px;
+.header {
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(7, 69, 28),
+    rgb(85, 254, 79),
+    rgb(185, 255, 182)
+  );
+  padding: 10px;
 }
 
 /* Nút chuyển chế độ */
 
-#themeBtn{
-    position:absolute;
-    top:12px;
-    right:20px;
-    width:55px;
-    height:35px;
-    padding:0;
-    font-size:22px;
-    cursor:pointer;
-    border:none;
-    border-radius:20px;
-    background:white;
-    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+#themeBtn {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  width: 55px;
+  height: 35px;
+  padding: 0;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background: #2c5628;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-#themeBtn:hover{
-    background:#dddddd;
+#themeBtn:hover {
+  background: rgb(85, 85, 85);
 }
 
-h1{
-    text-align:center;
-    font-size:300%;
-    margin-top:30px;
+h1 {
+  text-align: center;
+  font-size: 300%;
+  margin-top: 30px;
 }
 
-p{
-    text-align:center;
-    font-size:200%;
-    margin-top:20px;
+p {
+  text-align: center;
+  font-size: 200%;
+  margin-top: 20px;
 }
 
-table{
-    margin:auto;
-    margin-top:30px;
+table {
+  margin: auto;
+  margin-top: 30px;
 }
 
-td{
-    padding:15px;
-    font-size:200%;
-    font-weight:bold;
+td {
+  padding: 15px;
+  font-size: 200%;
+  font-weight: bold;
 }
 
-a{
-    text-decoration:none;
-    color:rgb(3,65,3);
+a {
+  text-decoration: none;
+  color: rgb(3, 65, 3);
 }
 
 /* ===== Chế độ tối ===== */
 
-.dark-mode{
-    background:#151515;
-    color:white;
+.dark-mode {
+  background: #151515;
+  color: white ;
 }
 
 .dark-mode h1,
 .dark-mode p,
 .dark-mode td,
-.dark-mode a{
-    color:white;
+.dark-mode a {
+  color: rgb(0, 255, 4);
 }
 
 /* Giữ nguyên thanh màu xanh */
 
-.dark-mode .header{
-    background-image:linear-gradient(
-        to bottom,
-        rgb(7,69,28),
-        rgb(85,254,79),
-        rgb(185,255,182)
-    );
+.dark-mode .header {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(7, 69, 28),
+    rgb(85, 254, 79),
+    rgb(185, 255, 182)
+  );
 }
 
-.dark-mode #themeBtn{
-    background:white;
-    color:black;
+.dark-mode #themeBtn {
+  background: rgb(195, 255, 198);
+  color: black;
 }
