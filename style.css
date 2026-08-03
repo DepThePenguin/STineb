@@ -1,3 +1,6 @@
+*{
+  color: rgb(3, 65, 3);
+}
 html,
 body {
   margin: 0;
@@ -12,19 +15,25 @@ div {
   );
 }
 body {
-  background-color: rgb(231, 255, 232);
+  background-color: rgb(242, 253, 238);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 1px;
+}
 
- h1{   text-align:center;
-              font-size: 300%;
-          }
 p {
-  text-align: center;
-  font-size: 200%;
+  color: rgb(0, 1, 0);
+  font-size: 120%;
 }
 td {
   font-size: 200%;
   font-weight: bold;
+}
+
+/** CLASS **/
+.wid20{
+  width: 20%;
+}
+.textcen{
+text-align: center;
 }
