@@ -6,19 +6,22 @@ body {
   margin: 0;
   min-height: 100%;
 }
-div {
+.taskbarcolor {
   background-image: linear-gradient(
     to bottom,
     rgb(7, 69, 28),
     rgb(85, 254, 79),
     rgb(185, 255, 182)
   );
+  width: 100%
 }
 body {
   background-color: rgb(242, 253, 238);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 1px;
+
 }
 
 p {

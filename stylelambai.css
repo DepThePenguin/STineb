@@ -1,0 +1,15 @@
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.question-panel{
+    flex:3;
+    padding:30px;
+}
+
+.sidebar{
+    flex:1;
+    border-left:2px solid #ddd;
+    padding:20px;
+}
