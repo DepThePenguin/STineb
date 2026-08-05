@@ -7,7 +7,7 @@
   display: flex;
 }
 .Button a img {
-  width: 25dwh;
+  width: 25dvw;
 }
 .Button a {
   flex: 1;
