@@ -7,7 +7,7 @@
   display: flex;
 }
 .Button a img {
-  width: 20dvw;
+  width: 20dvh;
 }
 .Button a {
   flex: 1;
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+
   font-size: 3dvw;
   gap: 10px;
 }
