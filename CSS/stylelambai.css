@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    height:100vh;
+    margin:0px;
+}
+
+.question-panel{
+    flex:3;
+    padding:30px;
+    background-color: white;
+}
+
+.sidebar{
+    flex:1;
+    border-left:2px solid #ddd;
+    padding:20px;
+}
+.question-list{
+    display:grid;
+    grid-template-columns:repeat(5,50px);
+    gap:10px;
+}

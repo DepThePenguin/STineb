@@ -8,15 +8,20 @@
       href="images/Stineb-logo.ico"
       type="image/x-icon"
     />
-
-    <link rel="stylesheet" href="style.css" />
-    <link href="darklight.css" rel="stylesheet" />
+    <!-- LINK HERF-->
+    <link rel="stylesheet" href="CSS/buttons.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/darklight.css" />
+    <!-- LINK HERF-->
+    <!-- STYLE-->
     <style>
+      marquee,
       h1 {
         text-align: center;
         font-size: 300%;
       }
     </style>
+    <!-- STYLE-->
     <title>Stineb</title>
   </head>
   <body>
@@ -32,27 +37,50 @@
 
       <button id="themeBtn" onclick="toggleTheme()">🌙</button>
     </div>
-    <hr>
-    <h1>Luyện thi Tin Học Trực Tuyến</h1>
+    <hr />
+
+    <marquee behavior="slide" direction="down" scrollamount="6">
+      [Stineb]<br />Luyện thi tin học THPTQG
+    </marquee>
+    <br /><br /><br />
+    <marquee style="font-size: medium" direction="down" scrollamount="2">
+      👇🏻chiến luôn
+    </marquee>
+
     <p style="text-align: center; font-size: 200%">
-      <a href="lambai.html">[ Bắt đầu ngay ]</a>
+      <a href="HTML/lambai.html"
+        ><img class="wid20" src="images/startButton.png" alt=""
+      /></a>
     </p>
-    <table align="center">
-      <tr>
-        <td>⠀⠀<a href="">Trang Chủ</a>⠀⠀</td>
-        <td>⠀⠀<a href="Noidung.html">Lý Thuyết</a>⠀⠀</td>
-        <td>⠀⠀ <a href="">Đề Minh Họa</a>⠀⠀</td>
-        <td>⠀⠀<a href="">Luyện Tập</a>⠀⠀</td>
-      </tr>
-      <tr>
-        <td>⠀⠀⠀⠀⠀⠀⠀⠀⠀</td>
-      </tr>
-      <tr>
-        <td colspan="4" align="center">
-          ---------<a href="GioiThieu.html">Giới thiệu web</a>---------
-        </td>
-      </tr>
-    </table>
+    <br /><br /><br />
+    <div class="ButtonsContainer">
+      <div class="Button">
+        <a href="HTML/Lythuyet.html"
+          ><img src="images/lythuyetLogo.png" alt="lythuyetLogo.png" />
+          Lý Thuyết
+        </a>
+      </div>
+      <div class="Button">
+        <a href="HTML/LuyenTap.html"
+          ><img src="images/luyentapLogo.png" alt="lythuyetLogo.png" />
+          Luyện Tập
+        </a>
+      </div>
+      <div class="Button">
+        <a href="HTML/HDLamBai.html"
+          ><img src="images/dethiLogo.png" alt="lythuyetLogo.png" /> Hướng dẫn
+          làm bài</a
+        >
+      </div>
+    </div>
+    <br /><br /><br />
+    <a style="font-size: 150%" href="HTML/GioiThieu.html"
+      >VỀ CHÚNG TÔI <br /><img
+        class="wid10"
+        src="images/StinebFullLogo.png"
+        alt=""
+      />
+    </a>
     <script>
       function toggleTheme() {
         document.body.classList.toggle("dark-mode");

@@ -1,0 +1,21 @@
+.ButtonsContainer {
+  display: flex;
+}
+.Button {
+  flex: 1;
+
+  display: flex;
+}
+.Button a img {
+  width: 20%;
+}
+.Button a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 150%;
+  gap: 10px;
+}
