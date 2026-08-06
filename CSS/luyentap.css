@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  margin: 2dvw;
+  padding: 2dvw;
+}
+.box a {
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+
+    rgb(85, 254, 79),
+    rgb(150, 255, 185),
+    rgb(85, 254, 79)
+  );
+  margin: 2dvw;
+  padding: 2dvw;
+  border: 2px solid rgb(7, 69, 28);
+  font-size: 3dvw;
+}
+ 

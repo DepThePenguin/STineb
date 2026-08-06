@@ -1,7 +1,7 @@
 * {
   color: rgb(3, 65, 3);
   font-weight: bold;
- 
+  font-family: Arial, Helvetica, sans-serif;
 }
 html,
 body {
@@ -33,7 +33,16 @@ td {
   font-size: 200%;
   font-weight: bold;
 }
+a {
+     
+    align-items: center;
+    text-decoration: none;
+    transition: filter 0.3s;
+}
 
+a:hover {
+    filter: brightness(70%);
+}
 /** CLASS **/
 .wid20 {
   width: 20%;
@@ -41,6 +50,6 @@ td {
 .textcen {
   text-align: center;
 }
-.wid10{
+.wid10 {
   width: 10%;
 }

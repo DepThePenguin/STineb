@@ -11,7 +11,6 @@ h1 {
 }
 
 .section {
-     
   width: 100%;
   padding: 5%;
 }
@@ -42,7 +41,7 @@ h1 {
   left: 0;
   background: linear-gradient(
     to right,
-    rgb(7, 69, 28),
+    rgb(14, 126, 51),
     rgb(85, 254, 79),
     rgb(185, 255, 182)
   );
@@ -79,6 +78,7 @@ h1 {
   border-left: 6px solid rgb(58, 174, 54);
   padding: 20px;
   border-radius: 8px;
+  
 }
 
 .note h4 {
