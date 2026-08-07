@@ -10,24 +10,33 @@
     />
     <!-- LINK HERF-->
     <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/darklight.css" />
+
     <!-- LINK HERF-->
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    </script>
     <!-- STYLE-->
-     
+
     <!-- STYLE-->
     <title>Stineb</title>
   </head>
   <body>
-    <div class="taskbarcolor">
+    <script src="../JS/darklight.js"></script>
+    <div class="header">
       <a href="../index.html">
         <img
           src="../images/StinebFullLogo.png"
-          width="60px"
+          width="60"
           alt="Home"
           title="Trang chủ"
         />
       </a>
-      <hr />
+      <button id="themeBtn" onclick="toggleTheme()">🌙</button>
     </div>
+   
     <!--THANH TASKBAR -->
     <h1 class="textcen">Tổng hợp lý thuyết môn tin học kì thi THPTQG</h1>
     <h2>

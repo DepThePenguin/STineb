@@ -11,23 +11,33 @@
     <!-- LINK HERF-->
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/stylelambai.css" />
+    <link rel="stylesheet" href="../CSS/darklight.css" />
+
     <!-- LINK HERF-->
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    </script>
     <!-- STYLE-->
 
     <!-- STYLE-->
     <title>Stineb</title>
   </head>
   <body>
-    <div class="taskbarcolor">
+    <script src="../JS/darklight.js"></script>
+    <div class="header">
       <a href="../index.html">
         <img
           src="../images/StinebFullLogo.png"
-          width="60px"
+          width="60"
           alt="Home"
           title="Trang chủ"
         />
       </a>
+      <button id="themeBtn" onclick="toggleTheme()">🌙</button>
     </div>
+  
     <!--THANH TASKBAR -->
     <div class="container">
       <div class="question-panel">
@@ -36,7 +46,7 @@
 
       <div class="sidebar">
         <!-- Danh sách câu -->
- 
+
         <h3>I. Trắc nghiệm</h3>
         <div class="question-list">
           <button>1</button>

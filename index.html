@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/darklight.css" />
     <!-- LINK HERF-->
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    </script>
     <!-- STYLE-->
     <style>
       marquee,
@@ -25,6 +30,7 @@
     <title>Stineb</title>
   </head>
   <body>
+    <script src="/JS/darklight.js"></script>
     <div class="header">
       <a href="index.html">
         <img
@@ -34,11 +40,10 @@
           title="Trang chủ"
         />
       </a>
-
       <button id="themeBtn" onclick="toggleTheme()">🌙</button>
     </div>
-    <hr />
 
+    <!--THANK TASKBAR-->
     <marquee behavior="slide" direction="down" scrollamount="6">
       [Stineb]<br />Luyện thi tin học THPTQG
     </marquee>
@@ -78,19 +83,5 @@
       ><img class="wid10" src="images/StinebFullLogo.png" alt="" /><br />VỀ
       CHÚNG TÔI</a
     >
-
-    <script>
-      function toggleTheme() {
-        document.body.classList.toggle("dark-mode");
-
-        const btn = document.getElementById("themeBtn");
-
-        if (document.body.classList.contains("dark-mode")) {
-          btn.innerHTML = "☀️";
-        } else {
-          btn.innerHTML = "🌙";
-        }
-      }
-    </script>
   </body>
 </html>

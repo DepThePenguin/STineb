@@ -3,11 +3,11 @@
   align-items: center;
   justify-content: center;
 }
-.box {
+.ltbutton {
   margin: 2dvw;
   padding: 2dvw;
 }
-.box a {
+.ltbutton a {
   text-decoration: none;
   background: linear-gradient(
     to right,

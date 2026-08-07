@@ -11,7 +11,13 @@
     <!-- LINK HERF-->
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/huongdan.css" />
+    <link rel="stylesheet" href="../CSS/darklight.css">
     <!-- LINK HERF-->
+      <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    </script>
     <!-- STYLE-->
     <style>
       h1,
@@ -33,17 +39,20 @@
     <title>Stineb</title>
   </head>
   <body>
-    <div class="taskbarcolor">
+     <script src="../JS/darklight.js"></script>
+    <div class="header">
       <a href="../index.html">
         <img
           src="../images/StinebFullLogo.png"
-          width="60px"
+          width="60"
           alt="Home"
           title="Trang chủ"
         />
       </a>
-      <hr />
+      <button id="themeBtn" onclick="toggleTheme()">🌙</button>
+    
     </div>
+   
     <!--THANH TASKBAR -->
 
     <h1>Chào mừng đến với Stineb</h1>
@@ -60,7 +69,7 @@
       yếu và nâng cao khả năng tư duy.
     </p>
     <br />
-    <hr />
+    
     <h1>Tính năng nổi bật</h1>
     <ul class="box">
       <li>📚 Luyện tập theo từng chủ đề hoặc chương học.</li>
@@ -75,7 +84,7 @@
       <li>📱 Giao diện hiện đại, dễ sử dụng trên cả máy tính và điện thoại.</li>
     </ul>
     <br />
-    <hr />
+     
     <h1>Mục tiêu của Stineb</h1>
     <p class="box">
       Stineb mong muốn trở thành người bạn đồng hành của học sinh THPT trên hành
@@ -90,7 +99,7 @@
       >
     </p>
     <br />
-    <hr />
+   
     <h1>Những người tham gia dự án:</h1>
     <br />
         <h2>DEVELOPERS:  </h2>

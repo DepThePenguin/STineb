@@ -11,7 +11,13 @@
     <!-- LINK HERF-->
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/luyentap.css" />
+    <link rel="stylesheet" href="../CSS/darklight.css" />
     <!-- LINK HERF-->
+    <script>
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    </script>
     <!-- STYLE-->
 
     <!-- STYLE-->
@@ -20,32 +26,34 @@
   </head>
 
   <body>
-    <div class="taskbarcolor">
+    <script src="../JS/darklight.js"></script>
+    <div class="header">
       <a href="../index.html">
         <img
           src="../images/StinebFullLogo.png"
-          width="60px"
+          width="60"
           alt="Home"
           title="Trang chủ"
         />
       </a>
-      <hr />
+      <button id="themeBtn" onclick="toggleTheme()">🌙</button>
     </div>
+   
     <!--THANH TASKBAR -->
     <h1 style="font-size: 5dvw" class="textcen">Bạn muốn luyện:</h1>
     <div class="container">
-      <div class="box"><a href=""> ㅤĐỀ CHÍNH THỨCㅤ</a></div>
+      <div class="ltbutton"><a href=""> ㅤĐỀ CHÍNH THỨCㅤ</a></div>
     </div>
 
     <div class="container">
-      <div class="box"><a href="">ĐỀ THI THỬ CỦA SỞ</a></div>
+      <div class="ltbutton"><a href="">ĐỀ THI THỬ CỦA SỞ</a></div>
     </div>
 
     <div class="container">
-      <div class="box"><a href="">ㅤCÂU HỎI ÔN TẬPㅤ</a></div>
+      <div class="ltbutton"><a href="">ㅤCÂU HỎI ÔN TẬPㅤ</a></div>
     </div>
     <div class="container">
-      <div class="box"><a href="">ㅤCÂU HỎI SGKㅤ</a></div>
+      <div class="ltbutton"><a href="">ㅤCÂU HỎI SGKㅤ</a></div>
     </div>
     <br />
   </body>
