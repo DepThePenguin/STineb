@@ -86,7 +86,7 @@ html.dark-mode * {
 /* ===== HUONGDAN.CSS ===== */
 html.dark-mode .box {
   background: #151515;
-  border: 4px solid rgb(0, 96, 32);
+  border: 4px solid rgb(0, 62, 21);
   border-radius: 0 25px 25px 25px;
   padding: 35px;
 }
