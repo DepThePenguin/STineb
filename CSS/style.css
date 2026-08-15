@@ -34,14 +34,16 @@ td {
   font-weight: bold;
 }
 a {
-     
-    align-items: center;
-    text-decoration: none;
-    transition: filter 0.3s;
+  align-items: center;
+  text-decoration: none;
+  transition: filter 0.3s;
 }
 
 a:hover {
-    filter: brightness(70%);
+  filter: brightness(70%);
+}
+*::selection {
+  background-color: rgb(168, 255, 169);
 }
 /** CLASS **/
 .wid20 {
